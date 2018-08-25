@@ -31,7 +31,11 @@ a:hover{
   cursor: pointer;
 }
 .footer{
+  width: 100%;
+  position:absolute;
   text-align: center;
+  bottom: 1em;
+  margin: auto;
 }
 .container{
   width: 50%;

@@ -1,7 +1,7 @@
 $(document).ready(function(){
-  prof=["Architect","Developer","Thinker","Artist","Designer","Researcher"];
+  prof=["Developer","Thinker","Artist","Architect","Designer","Researcher"];
   var j=0;
-  function swap (){
+  function swap(){
     j++;
     if (j>prof.length*2-1){
       clearInterval(x);
@@ -20,6 +20,5 @@ $(document).ready(function(){
     prof.push(temp);
     var x = setTimeout(swap, 20);
   }
-
   var y = setInterval (swap, 1500);
 });
